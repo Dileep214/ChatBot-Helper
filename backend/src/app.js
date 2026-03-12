@@ -44,6 +44,21 @@ app.get('/health', (req, res) => {
 });
 
 /**
+ * Root route for deployment verification
+ */
+app.get('/', (req, res) => {
+    res.status(200).json({
+        success: true,
+        message: 'Shankar Children\'s Hospital AI Assistant API',
+        documentation: '/health',
+        endpoints: {
+            chat: '/api/chat',
+            health: '/health'
+        }
+    });
+});
+
+/**
  * 5. Error Management and Fallbacks
  */
 app.use((req, res, next) => {
