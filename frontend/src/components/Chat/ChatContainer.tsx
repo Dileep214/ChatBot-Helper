@@ -12,7 +12,7 @@ export interface Message {
     timestamp: Date;
 }
 
-const API_BASE_URL = 'https://chatbot-helper-v5s4.onrender.com/api';
+const API_BASE_URL = 'https://chatbot-helper-1.onrender.com/api';
 
 const ChatContainer: React.FC = () => {
     const [messages, setMessages] = useState<Message[]>([
