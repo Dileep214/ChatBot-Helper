@@ -13,7 +13,11 @@ const app = express();
  */
 app.use(helmet());
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: [
+        'http://localhost:5173',
+        'https://chat-bot-helper-9u4vektqt-dileeps-projects-c06fc2d8.vercel.app',
+        /\.vercel\.app$/ // Allows any vercel.app subdomain for your project
+    ],
     methods: ['GET', 'POST'],
     credentials: true,
     optionsSuccessStatus: 200
