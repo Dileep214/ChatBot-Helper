@@ -1,0 +1,67 @@
+[
+    {
+        "id": "hospital_overview",
+        "title": "Shankar Children's Hospital Overview",
+        "content": "Shankar Children's Hospital is a specialized pediatric healthcare center located on Tuni Main Road near ADB Bank in Tuni, Andhra Pradesh. Established in 2021, the hospital focuses on providing compassionate and advanced medical care for infants, children, and adolescents. The hospital offers pediatric consultation, newborn care, vaccination programs, emergency pediatric services, and specialized child health treatments. The facility is designed to be child-friendly and accessible, including wheelchair access and comfortable waiting areas for families."
+    },
+    {
+        "id": "hospital_contact",
+        "title": "Hospital Contact Information",
+        "content": "Shankar Children's Hospital is located on Tuni Main Road near Park Center and ADB Bank in Tuni, Andhra Pradesh 533401. Parents can contact the hospital for consultation or emergency assistance at +91 94916 49111. The hospital provides both walk-in consultations and appointment-based visits. Google Maps location: https://maps.app.goo.gl/yCg1X5yYnctxzi7U6"
+    },
+    {
+        "id": "doctors_information",
+        "title": "Doctors at Shankar Children's Hospital",
+        "content": "Shankar Children's Hospital has two pediatric specialists. The primary pediatrician is Dr. Shankar, a senior pediatric doctor with qualifications in MBBS and MD Pediatrics and over seven years of experience in child healthcare and neonatal care. Another pediatric consultant, Dr. Ramesh Kumar, supports pediatric consultation and treatment services. The doctors specialize in general pediatrics, neonatal care, child development monitoring, and treatment of common childhood illnesses."
+    },
+    {
+        "id": "consultation_hours",
+        "title": "Consultation Timing",
+        "content": "Regular consultation hours at Shankar Children's Hospital are from 9:00 AM to 10:00 PM. Emergency pediatric care may be available depending on the medical situation. Parents are advised to contact the hospital in advance for emergency cases."
+    },
+    {
+        "id": "hospital_services",
+        "title": "Medical Services",
+        "content": "Shankar Children's Hospital provides a wide range of pediatric medical services including general pediatric consultation, newborn baby care, vaccination programs, NICU care, pediatric ICU support, child psychology counseling, autism and ADHD support, child growth monitoring, nutrition counseling, respiratory infection treatment, and allergy management for children."
+    },
+    {
+        "id": "conditions_treated",
+        "title": "Common Conditions Treated",
+        "content": "The hospital treats common childhood illnesses including fever, cold, cough, viral infections, digestive problems, asthma, skin allergies, dehydration, respiratory infections, developmental delays, autism spectrum concerns, ADHD symptoms, and speech delay in children."
+    },
+    {
+        "id": "hospital_facilities",
+        "title": "Hospital Facilities",
+        "content": "Shankar Children's Hospital provides modern pediatric healthcare facilities including an in-house laboratory, pharmacy services, neonatal intensive care unit (NICU), pediatric intensive care unit (PICU), observation wards for children, emergency treatment room, child-friendly waiting area, play therapy room, and ambulance transportation service."
+    },
+    {
+        "id": "vaccination_services",
+        "title": "Vaccination Program",
+        "content": "The hospital offers a complete child vaccination program based on the Indian Academy of Pediatrics immunization schedule. Vaccines available include BCG, Hepatitis B, DPT, MMR, Polio, Rotavirus, and Typhoid. Parents also receive reminders for upcoming vaccinations to ensure children stay protected."
+    },
+    {
+        "id": "emergency_services",
+        "title": "Emergency Pediatric Care",
+        "content": "Shankar Children's Hospital provides emergency pediatric medical care for urgent conditions such as high fever, seizures, breathing difficulties, severe dehydration, and sudden infections in children. Ambulance services are available to assist in emergency transportation."
+    },
+    {
+        "id": "appointment_system",
+        "title": "Appointment and Walk-in Policy",
+        "content": "Parents can visit Shankar Children's Hospital through walk-in consultations or by booking an appointment online. The average waiting time is approximately 15 to 30 minutes depending on patient load. Emergency cases are given immediate priority."
+    },
+    {
+        "id": "faq_fever",
+        "title": "Child Fever Guidance",
+        "content": "If a child develops fever at night, parents should monitor the child's temperature and ensure proper hydration. If the fever becomes high, persists, or is accompanied by other symptoms such as vomiting or breathing difficulty, parents should consult a pediatrician at Shankar Children's Hospital."
+    },
+    {
+        "id": "faq_appetite",
+        "title": "Child Not Eating Food",
+        "content": "Loss of appetite in children may occur due to infections, growth phases, or nutritional imbalance. If a child continues to avoid food for several days or shows weakness, parents should consult a pediatrician for proper evaluation."
+    },
+    {
+        "id": "faq_dehydration",
+        "title": "Signs of Dehydration in Children",
+        "content": "Signs of dehydration in children include dry mouth, reduced urination, fatigue, irritability, and unusual sleepiness. Parents should seek medical attention if dehydration symptoms become severe."
+    }
+]
