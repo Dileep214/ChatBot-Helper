@@ -49,8 +49,7 @@ const generateResponse = async (userMessage, context = '') => {
             // Use high performance Llama 3.3 on Groq or GPT-3.5 on OpenAI
             model: useGroq ? "llama-3.3-70b-versatile" : "gpt-3.5-turbo",
             messages: [
-                { role: "system", content: SYSTEM_PROMPT },
-                { role: "system", content: `Retrieved Hospital Information: ${context}` },
+                { role: "system", content: `${SYSTEM_PROMPT}\n\nRetrieved Hospital Information: ${context}` },
                 { role: "user", content: userMessage }
             ],
             temperature: 0.7,

@@ -11,7 +11,9 @@ const app = express();
 /**
  * 1. Security First Infrastructure
  */
-app.use(helmet());
+app.use(helmet({
+    crossOriginResourcePolicy: false,
+}));
 app.use(cors({
     origin: [
         'http://localhost:5173',

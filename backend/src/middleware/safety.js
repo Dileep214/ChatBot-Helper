@@ -17,12 +17,15 @@ const safetyFilter = (req, res, next) => {
 
     if (detected) {
         return res.status(200).json({
-            isEmergency: true,
-            response: "IMMEDIATE EMERGENCY DETECTED: If this is a life-threatening emergency, please call 911 (or your local emergency services) immediately. Our hospital's emergency room is open 24/7 at [Hospital Address].",
-            actions: [
-                { type: 'call', label: 'Call 911', number: '911' },
-                { type: 'location', label: 'ER Location', address: '123 Hospital Lane' }
-            ]
+            success: true,
+            data: {
+                isEmergency: true,
+                response: "IMMEDIATE EMERGENCY DETECTED: If this is a life-threatening emergency, please call 911 (or your local emergency services) immediately. Our hospital's emergency room is open 24/7 at [Hospital Address].",
+                actions: [
+                    { type: 'call', label: 'Call 911', number: '911' },
+                    { type: 'location', label: 'ER Location', address: '123 Hospital Lane' }
+                ]
+            }
         });
     }
 
